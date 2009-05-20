@@ -7,7 +7,6 @@
 /README -text
 /SConscript -text
 /WHATSNEW -text
-bin/.cvsignore -text
 include/cclass.h -text
 include/cname.h -text
 include/debug.ih -text
@@ -18,8 +17,6 @@ include/regerror.ih -text
 include/regex.h -text
 include/regex2.h -text
 include/utils.h -text
-lib/.cvsignore -text
-obj/.cvsignore -text
 /regex.3 -text
 /regex.7 -text
 src/debug.c -text
