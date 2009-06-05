@@ -100,7 +100,7 @@ export:
 	@cp $(TESTFILES) $(EXPORT_DIR)/$(TEST_DIR)
 
 
-clean: clean_build
+clean: clean_build clean_test
 
 
 $(M_MOD_LIB): $(L_MOD_LIB)
@@ -137,6 +137,8 @@ clean_build:
 	@rm -f $(L_MOD_LIB)
 	@rm -f $(M_MOD_LIB)
 	@rm -f $(M_AGR_LIB)
+
+clean_test:
 
 
 $(L_MOD_LIB): $(OBJ_FILES)

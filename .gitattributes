@@ -28,4 +28,4 @@ src/regerror.c -text
 src/regexec.c -text
 src/regfree.c -text
 src/split.c -text
-test/tests -text
+test-regex/tests -text
