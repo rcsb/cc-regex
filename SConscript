@@ -2,14 +2,16 @@
 # SConscript for regex-v2.2
 # Created: Aug 16, 2006 - Jdw
 # Updated: Aug 23, 2006 - Jdw
-#          Add object install
-#
+#             Add object install
+#          Mar 30, 2011 - jdw clone environment -
+##
 Import('env')
+env=env.Clone()
 #
-if (len(env.subst('$MYDEBUG')) > 0):
-	dict = env.Dictionary()
-	for k,v in dict.items():
-		print  k, " = ", str(v)
+#if (len(env.subst('$MYDEBUG')) > 0):
+#	dict = env.Dictionary()
+#	for k,v in dict.items():
+#		print  k, " = ", str(v)
 #
 libName = 'regex'
 libSrcList =['src/regcomp.c',
