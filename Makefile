@@ -14,7 +14,7 @@ SRC_DIR    = $(PROJ_DIR)/src
 OBJ_DIR    = $(PROJ_DIR)/obj
 L_LIB_DIR  = $(PROJ_DIR)/lib
 L_BIN_DIR  = $(PROJ_DIR)/bin
-TEST_DIR    = $(PROJ_DIR)/test
+TEST_DIR    = $(PROJ_DIR)/test-regex
 
 VPATH = $(OBJ_DIR)
 
